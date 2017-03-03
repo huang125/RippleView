@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bad2</color>
+    <color name="colorPrimaryDark">#00a3b8</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorAccentLight">#ddff4081</color>
+
+    <color name="gitstar">#00bad2</color>
+    <color name="blue">#84ffff</color>
+    <color name="green">#b9f6ca</color>
+    <color name="purple">#b388ff</color>
+    <color name="red">#ff8a80</color>
+    <color name="yellow">#ffff8d</color>
+</resources>

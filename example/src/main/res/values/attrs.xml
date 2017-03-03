@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BubbleSeekBar -->
+    <declare-styleable name="BubbleSeekBar">
+        <attr name="bsb_min" format="integer|reference" />
+        <attr name="bsb_max" format="integer|reference" />
+        <attr name="bsb_progress" format="integer|reference" />
+        <attr name="bsb_track_size" format="dimension|reference" />
+        <attr name="bsb_second_track_size" format="dimension|reference" />
+        <attr name="bsb_thumb_radius" format="dimension|reference" />
+        <attr name="bsb_thumb_radius_on_dragging" format="dimension|reference" />
+        <attr name="bsb_section_count" format="integer|reference" />
+        <attr name="bsb_thumb_color" format="color|reference" />
+        <attr name="bsb_track_color" format="color|reference" />
+        <attr name="bsb_second_track_color" format="color|reference" />
+        <attr name="bsb_show_text" format="boolean" />
+        <attr name="bsb_text_size" format="dimension|reference" />
+        <attr name="bsb_text_color" format="color|reference" />
+        <attr name="bsb_text_position">
+            <enum name="sides" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+        <attr name="bsb_show_thumb_text" format="boolean" />
+        <attr name="bsb_thumb_text_size" format="dimension|reference" />
+        <attr name="bsb_thumb_text_color" format="color|reference" />
+        <attr name="bsb_bubble_color" format="color|reference" />
+        <attr name="bsb_bubble_text_size" format="dimension|reference" />
+        <attr name="bsb_bubble_text_color" format="color|reference" />
+        <attr name="bsb_show_section_mark" format="boolean" />
+        <attr name="bsb_auto_adjust_section_mark" format="boolean" />
+        <attr name="bsb_show_progress_in_float" format="boolean" />
+        <attr name="bsb_anim_duration" format="integer" />
+        <attr name="bsb_touch_to_seek" format="boolean" />
+    </declare-styleable>
+</resources>
