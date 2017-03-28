@@ -2,7 +2,7 @@
 <resources>
     <declare-styleable name="RippleView">
         <attr name="ripple_color" format="color" />
-        <attr name="ripple_strokeWidth" format="dimension" />
+        <attr name="ripple_strokeWidth" format="float" />
         <attr name="ripple_duration" format="integer" />
         <attr name="ripple_amount" format="integer" />
         <attr name="ripple_scale" format="float" />

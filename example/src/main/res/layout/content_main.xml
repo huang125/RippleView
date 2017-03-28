@@ -27,8 +27,8 @@
             app:ripple_amount="3"
             app:ripple_color="@android:color/holo_blue_light"
             app:ripple_duration="3000"
-            app:ripple_scale="4"
-            app:ripple_strokeWidth="2dp"
+            app:ripple_scale="4.0"
+            app:ripple_strokeWidth="2.0"
             app:ripple_style="fillRipple" />
     </rippleview.huang.com.example.view.SquareLayout>
 

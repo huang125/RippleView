@@ -30,6 +30,7 @@ public class RippleView extends FrameLayout {
     private static final int DEFAULT_DURATION = 3000;
     private static final float DEFAULT_SCALE = 4.0f;
     private static final int DEFAULT_SIZE = 240;
+    private static final float DEFAULT_STROKE_WIDTH = 2.0f;
 
     private int mRippleColor;
     private float mRippleStrokeWidth;//记录初始设置的
@@ -80,7 +81,7 @@ public class RippleView extends FrameLayout {
 
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.RippleView);
         mRippleColor = ta.getColor(R.styleable.RippleView_ripple_color, DEFAULT_COLOR);
-        mRippleStrokeWidth = ta.getDimension(R.styleable.RippleView_ripple_strokeWidth, getResources().getDimension(R.dimen.rippleStrokeWidth));
+        mRippleStrokeWidth = ta.getFloat(R.styleable.RippleView_ripple_strokeWidth, DEFAULT_STROKE_WIDTH);
         mRippleDuration = ta.getInt(R.styleable.RippleView_ripple_duration, DEFAULT_DURATION);
         mRippleAmount = ta.getInt(R.styleable.RippleView_ripple_amount, DEFAULT_AMOUNT);
         mRippleScale = ta.getFloat(R.styleable.RippleView_ripple_scale, DEFAULT_SCALE);
@@ -306,6 +307,18 @@ public class RippleView extends FrameLayout {
     public void setRippleDuration(int duration) {
         mRippleDuration = duration;
         setRippleDelay();
+        addRippleView();
+    }
+
+    /**
+     * 设置边框线条粗细，只在Style为STROKE下起作用
+     *
+     * @param strokeWidth
+     */
+    public void setRippleStrokeWidth(float strokeWidth){
+        mRippleStrokeWidth = strokeWidth;
+        mTempStrokeWidth = mRippleStrokeWidth;
+        mPaint.setStrokeWidth(mTempStrokeWidth);
         addRippleView();
     }
 

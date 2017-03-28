@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void getProgressOnActionUp(float progress) {
-                mRippleView.setRippleScale(progress);
+                mRippleView.setRippleStrokeWidth(progress);
             }
         });
     }
