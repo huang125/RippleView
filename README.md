@@ -4,7 +4,7 @@ A view similar ripple effect.
 ```
 dependencies {
   ...
-  compile 'com.huang.rippleview:rippleview:0.0.1'
+  compile 'com.huang.rippleview:rippleview:1.0.1'
 }
 ```
 ## Usage
