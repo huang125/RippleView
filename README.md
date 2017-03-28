@@ -58,6 +58,7 @@ app:ripple_amount="3"
 RippleView.setRippleAmount(5);
 ```
 ### Scale
+I think there have some problems. I will fix it in the future. Don't worry.
 * .xml
 ```
 app:ripple_scale="4.0"
