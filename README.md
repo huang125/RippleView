@@ -42,7 +42,7 @@ app:ripple_color="@android:color/holo_blue_light"
 ```
 * code
 ```
-RippleView.setRippleColor(@android:color/holo_red_light);
+RippleView.setRippleColor(R.color.blue);
 ```
 ### Amount
 You can set any `int` parameter to change ripple amount. But i think you don't want to set it too big, because it's so bad experience.
