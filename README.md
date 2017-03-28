@@ -88,7 +88,7 @@ app:ripple_strokeWidth="2.0"
 RippleView.setRippleStrokeWidth(4.0);
 ```
 
-### License
+## License
 ```
 Copyright 2017 Huang
 
