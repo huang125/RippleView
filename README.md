@@ -21,7 +21,7 @@ dependencies {
             app:ripple_style="fillRipple" />
 ```
 ### Style
-You can change the RippleView Style to fill or Stroke. 
+You can change the RippleView style to fill or stroke. 
 * .xml
 ```
 app:ripple_style="fillRipple"
@@ -42,7 +42,7 @@ app:ripple_color="@android:color/holo_blue_light"
 ```
 * code
 ```
-RippleView.setRippleColor(mColors[index]);
+RippleView.setRippleColor(@android:color/holo_red_light);
 ```
 ### Amount
 You can set any `int` parameter to change ripple amount. But i think you don't want to set it too big, because it's so bad experience.
@@ -75,7 +75,7 @@ app:ripple_duration="3000"
 RippleView.setRippleDuration(1000 * 5);
 ```
 ### StrokeWidth
-When style is `RippleStyle.STROKE` can see effect.
+When style is `RippleStyle.STROKE` can see this effect.
 * .xml
 ```
 app:ripple_strokeWidth="2.0"
