@@ -2,6 +2,7 @@
 A view similar ripple effect.
 
 ![](https://github.com/huang125/RippleView/blob/master/screenshots/demo.gif)
+![](https://github.com/huang125/RippleView/blob/master/screenshots/demo2.gif)
 
 #### Gradle
 ```
